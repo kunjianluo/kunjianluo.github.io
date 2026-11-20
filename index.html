@@ -1,113 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Kunjian Luo — MSc Urban Analytics, The University of Hong Kong. Research interests in human mobility, urban behavior, spatiotemporal AI, and GeoAI.">
-    <meta name="author" content="Kunjian Luo">
-    <meta name="theme-color" content="#ffffff">
-    <title>Kunjian Luo | Urban Analytics &amp; GeoAI</title>
-    <link rel="canonical" href="https://kunjianluo.github.io/">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
-
-    <header class="site-header">
-      <div class="header-inner">
-        <a class="site-name" href="#home">Kunjian Luo</a>
-        <nav aria-label="Main navigation">
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#research">Research</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#cv">CV</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kunjian Luo studies human mobility and urban behavior through spatiotemporal data, accessibility analysis and behavioral modeling.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Kunjian Luo | Human Mobility & Urban Analytics</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="nav-wrap">
+    <a class="wordmark" href="#home">Kunjian Luo<span class="wordmark-dot" aria-hidden="true">.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#home" aria-current="location">Home</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#projects">Projects</a><a href="#cv">CV</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<div class="page-layout">
+  <aside class="profile" aria-label="About Kunjian Luo">
+    <img class="portrait" src="assets/profile/kunjian-luo.jpg" alt="Portrait of Kunjian Luo" width="720" height="720">
+    <div class="profile-copy">
+      <h1>Kunjian Luo</h1><p class="chinese-name" lang="zh">罗琨荐</p>
+      <p class="profile-focus">Human mobility. <br>Urban behavior. <br>Spatial intelligence.</p>
+      <p class="affiliation">MSc in Urban Analytics<br><span>The University of Hong Kong</span></p>
+      <div class="profile-links">
+        <a href="mailto:kunjianluo@connect.hku.hk"><span aria-hidden="true">@</span>Email</a>
+        <a href="https://github.com/kunjianluo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4 4 8v8l4 4m8-16 4 4v8l-4 4M14 3l-4 18"/></svg>GitHub</a>
+        <a href="assets/cv/Kunjian-Luo-CV.pdf"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6m-6 4h6"/></svg>Curriculum vitae <small>PDF</small></a>
       </div>
-    </header>
+    </div>
+    <section class="visitor-map" aria-labelledby="visitor-heading" hidden><h2 id="visitor-heading">Visitor locations</h2><p class="visitor-mode">Demo data · Not real visitors</p><div class="visitor-canvas"><img src="assets/visitor/world.svg" width="360" height="180" alt="World land outline with illustrative location markers"><svg id="visitor-points" viewBox="0 0 360 180" aria-label="Illustrative locations"></svg></div><p id="visitor-summary"></p><p class="visitor-note">Illustrative locations only. No visitor tracking.</p></section>
+  </aside>
+  <main id="main" tabindex="-1">
+    <section id="home" class="about" aria-labelledby="about-heading">
+      <p class="eyebrow">HUMAN MOBILITY & URBAN ANALYTICS</p>
+      <h2 id="about-heading">Understanding cities<br>through human activity.</h2>
+      <p class="intro">I study how people move, what they do, and how urban environments shape their opportunities.</p>
+      <p>I am Kunjian Luo, an MSc Urban Analytics graduate of the University of Hong Kong with Distinction. I use large-scale mobility observations and spatial analysis to understand access to urban opportunities and activity around transport gateways.</p>
+      <p>My research interests connect activity inference with behavioral modeling and spatiotemporal AI, with a focus on how people experience cities.</p>
+      <div class="interests" aria-label="Research interests"><span>Human Mobility</span><span>Urban Behavior</span><span>Spatiotemporal AI</span><span>Behavioral Modeling</span><span>GeoAI</span></div>
+    </section>
 
-    <main id="main-content" class="page-width">
-      <div class="intro" id="home">
-        <p class="eyebrow">Urban Analytics &amp; GeoAI</p>
-        <h1>Kunjian Luo</h1>
-        <p class="education">MSc Urban Analytics, The University of Hong Kong</p>
-        <p class="interests">Human Mobility <span aria-hidden="true">·</span> Urban Behavior <span aria-hidden="true">·</span> Spatiotemporal AI <span aria-hidden="true">·</span> GeoAI</p>
-        <div class="intro-links">
-          <a href="mailto:kunjianluo@connect.hku.hk">Email</a>
-          <a href="https://github.com/kunjianluo">GitHub</a>
-        </div>
-      </div>
+    <section id="background" aria-labelledby="background-heading">
+      <div class="section-heading"><h2 id="background-heading">Education & experience</h2></div>
+      <div class="background-grid"><div><h3 class="minor-heading">Education</h3><div class="timeline-item"><span class="date">2025–2026</span><h4><a href="https://www.hku.hk/">The University of Hong Kong</a></h4><p>MSc in Urban Analytics<br><span class="distinction">Distinction</span></p></div><div class="timeline-item"><span class="date">2020–2025</span><h4><a href="https://www.seu.edu.cn/english/">Southeast University</a></h4><p>BEng in Landscape Architecture</p></div></div><div><h3 class="minor-heading">Research & industry</h3><div class="timeline-item"><span class="date">Jun 2025–Nov 2026</span><h4><a href="https://locationmind.com/">LocationMind Inc.</a> · Remote</h4><p>R&D Assistant<br>Human mobility & cooling accessibility</p></div><div class="timeline-item"><span class="date">Oct 2025–Aug 2026</span><h4><a href="https://www.hku.hk/">The University of Hong Kong</a></h4><p>Research Assistant<br>Human mobility & cross-border consumption</p></div><div class="timeline-item"><span class="date">Mar–Jul 2025</span><h4><a href="https://group.trip.com/">Trip.com</a></h4><p>NLP Algorithm Assistant</p></div></div></div>
+    </section>
 
-      <!-- Edit the text within each section to update the website. -->
-      <section class="content-section" id="about" aria-labelledby="about-heading">
-        <h2 id="about-heading">About</h2>
-        <div class="section-body">
-          <p>My academic background is in Urban Analytics at The University of Hong Kong. I am interested in how people move through, experience, and interact with cities, and how spatial data and artificial intelligence can help us understand these patterns.</p>
-          <p>My research interests span human mobility, urban behavior, spatiotemporal AI, and GeoAI, with a focus on cross-border activities and access to urban environmental benefits.</p>
-        </div>
-      </section>
+    <section id="research" aria-labelledby="research-heading">
+      <div class="section-heading"><h2 id="research-heading">Featured research</h2><span>Mobility as a lens on cities</span></div>
+      <article class="research-entry" id="cooling">
+        <div class="research-layout"><div class="research-visual"><figure><a class="figure-link" href="assets/research/japan-hourly.png" data-figure data-caption="Hourly cooling accessibility across Tokyo, Osaka and Nagoya."><img src="assets/research/japan-hourly.png" width="1934" height="579" alt="Hourly cooling accessibility across Tokyo, Osaka and Nagoya." loading="lazy"><span class="view-label">View full figure</span></a><figcaption>Hourly cooling accessibility across Tokyo, Osaka and Nagoya.</figcaption></figure></div><div class="research-copy"><p class="research-meta">TOKYO · OSAKA · NAGOYA</p><h3>Dynamic and Uneven Accessibility to Green Space Cooling in Japanese Metropolitan Cores</h3><p class="research-question">How does access to cooling change as people and thermal conditions shift through the day?</p><p>I integrate satellite observations and GPS-derived population estimates to examine hourly cooling accessibility across three cities.</p><p class="method-line">Large-scale mobility data · Dynamic accessibility modelling · Cross-city comparison</p><p class="research-credit">First-author manuscript<br>Under review at <i>npj Urban Sustainability</i></p></div></div>
+        <details class="research-details"><summary>View details</summary><figure><a class="figure-link" href="assets/research/japan-scenario.png" data-figure data-caption="Conceptual illustration of changing cooling supply and urban activity."><img src="assets/research/japan-scenario.png" width="2038" height="772" alt="Conceptual illustration of changing cooling supply and urban activity." loading="lazy"><span class="view-label">View full figure</span></a><figcaption>Conceptual illustration of changing cooling supply and urban activity.</figcaption></figure><p>Further methodological details and research findings are available upon request.</p></details>
+      </article>
+      <article class="research-entry" id="cross-border">
+        <div class="research-layout"><div class="research-visual"><figure><a class="figure-link" href="assets/research/hk-traces.jpg" data-figure data-caption="Mobility traces around Hong Kong–Shenzhen gateways."><img src="assets/research/hk-traces.jpg" width="1412" height="1044" alt="Mobility traces around Hong Kong–Shenzhen gateways." loading="lazy"><span class="view-label">View full figure</span></a><figcaption>Mobility traces around Hong Kong–Shenzhen gateways.</figcaption></figure></div><div class="research-copy"><p class="research-meta">HONG KONG · SHENZHEN</p><h3>Measuring Hong Kong–Shenzhen Cross-Border Consumption Spillovers from Mobility Data</h3><p class="research-question">How do cross-border movements connect with urban activity around transport gateways?</p><p>I reconstruct cross-border movement from large-scale anonymized mobility observations and examine spatial and temporal differences in inferred F&B-related activity.</p><p class="method-line">Movement reconstruction · Spatiotemporal activity inference · Urban behavior</p><p class="research-credit">First-author manuscript · In preparation</p></div></div>
+        <details class="research-details"><summary>View details</summary><figure><a class="figure-link" href="assets/research/hk-activity.png" data-figure data-caption="Clearance-centered patterns of F&amp;B-related stays."><img src="assets/research/hk-activity.png" width="2656" height="1300" alt="Clearance-centered patterns of F&amp;B-related stays." loading="lazy"><span class="view-label">View full figure</span></a><figcaption>Clearance-centered patterns of F&amp;B-related stays.</figcaption></figure></details>
+      </article>
+    </section>
 
-      <section class="content-section" id="research" aria-labelledby="research-heading">
-        <h2 id="research-heading">Research</h2>
-        <div class="section-body research-topics">
-          <article>
-            <h3>Human Mobility and Cross-border Activities</h3>
-            <p>Understanding how people travel across borders and engage with urban places, with an interest in the spatial and temporal patterns of mobility and everyday activities.</p>
-          </article>
-          <article>
-            <h3>Dynamic Urban Green-space Cooling Accessibility</h3>
-            <p>Exploring how access to the cooling benefits of urban green spaces varies across locations and over time, considering human mobility and changing environmental conditions.</p>
-          </article>
-        </div>
-      </section>
+    <section id="publications" aria-labelledby="publications-heading">
+      <div class="section-heading"><h2 id="publications-heading">Publications & manuscripts</h2></div>
+      <div class="manuscript"><span class="status">Under review</span><div><h3><a href="#cooling">Dynamic and Uneven Accessibility to Green Space Cooling in Japanese Metropolitan Cores</a></h3><p>First-author manuscript · Under review at <i>npj Urban Sustainability</i></p></div></div>
+      <div class="manuscript"><span class="status neutral">In preparation</span><div><h3><a href="#cross-border">Measuring Hong Kong–Shenzhen Cross-Border Consumption Spillovers from Mobility Data</a></h3><p>First-author manuscript · In preparation</p></div></div>
+    </section>
 
-      <section class="content-section" id="publications" aria-labelledby="publications-heading">
-        <h2 id="publications-heading">Publications</h2>
-        <div class="section-body">
-          <p class="placeholder">Publications and manuscripts will be updated here.</p>
-        </div>
-      </section>
+<section id="projects" aria-labelledby="projects-heading"><div class="section-heading"><h2 id="projects-heading">Selected projects</h2><span>Urban analytics coursework</span></div><div class="project-grid"><article class="project"><div class="project-main"><figure><a class="figure-link" href="assets/projects/night-map.jpg" data-figure data-caption="Modeled direct-transit accessibility in Kowloon at four times of day."><img src="assets/projects/night-map.jpg" width="1392" height="1336" alt="Modeled direct-transit accessibility in Kowloon at four times of day." loading="lazy"><span class="view-label">View full figure</span></a><figcaption>Modeled direct-transit accessibility in Kowloon at four times of day.</figcaption></figure><p class="project-meta">URBA6004 · 2026</p><h3>Nighttime Accessibility Cliff in Hong Kong</h3><p>How does public transport contraction affect late-night access to convenience stores? This project compares modeled direct-transit accessibility across the day and maps variation in Kowloon, connecting citywide temporal profiles with the spatial distribution of essential-service access.</p><p class="method-line">Accessibility · Mobility networks · Spatial analysis</p></div><details class="research-details"><summary>View details</summary><figure><a class="figure-link" href="assets/projects/night-hourly.png" data-figure data-caption="Hourly city-level modeled convenience-store accessibility."><img src="assets/projects/night-hourly.png" width="790" height="390" alt="Hourly city-level modeled convenience-store accessibility." loading="lazy"><span class="view-label">View full figure</span></a><figcaption>Hourly city-level modeled convenience-store accessibility.</figcaption></figure></details></article><article class="project"><div class="project-main"><figure><a class="figure-link" href="assets/projects/sky-regression.png" data-figure data-caption="Elevation and SkyRatio: linear, spline and piecewise model fits."><img src="assets/projects/sky-regression.png" width="613" height="470" alt="Elevation and SkyRatio: linear, spline and piecewise model fits." loading="lazy"><span class="view-label">View full figure</span></a><figcaption>Elevation and SkyRatio: linear, spline and piecewise model fits.</figcaption></figure><p class="project-meta">URBA6002 · 2026</p><h3>High Enough to See the Sky</h3><p>Exploring how window-view sky visibility varies with elevation and orientation. Using existing CIM-WV images, semantic masks and metadata, this project compares regression models and examines spatial patterns in the urban visual environment of high-rise, high-density Hong Kong.</p><p class="method-line">Regression · Spatial statistics · Urban visual environment</p></div><details class="research-details"><summary>View details</summary><figure><a class="figure-link" href="assets/projects/sky-orientation.jpg" data-figure data-caption="Orientation visualization of window-view sky visibility."><img src="assets/projects/sky-orientation.jpg" width="1674" height="1476" alt="Orientation visualization of window-view sky visibility." loading="lazy"><span class="view-label">View full figure</span></a><figcaption>Orientation visualization of window-view sky visibility.</figcaption></figure><p>Analysis based on the <a href="https://link.springer.com/article/10.1007/s44212-024-00039-7">CIM-WV dataset</a> (Li et al., 2024).</p></details></article><article class="project"><div class="project-main"><figure><a class="figure-link" href="assets/projects/timebank-map.png" data-figure data-caption="Kowloon service facilities and pedestrian routes."><img src="assets/projects/timebank-map.png" width="2382" height="1684" alt="Kowloon service facilities and pedestrian routes." loading="lazy"><span class="view-label">View full figure</span></a><figcaption>Kowloon service facilities and pedestrian routes.</figcaption></figure><p class="project-meta">URBA6007 · 2025</p><h3>Time Bank</h3><p>A GIS planning project for age-friendly community support in Kowloon. Accessibility analysis, location-allocation and pedestrian routing connect service gaps with potential hub locations, while a conceptual Time Bank interface explores how volunteers and older residents might exchange support.</p><p class="method-line">GIS accessibility · Location-allocation · Pedestrian routing</p></div><details class="research-details"><summary>View details</summary><figure><a class="figure-link" href="assets/projects/timebank-interface.jpg" data-figure data-caption="Time Bank conceptual service-interface designs."><img src="assets/projects/timebank-interface.jpg" width="1574" height="1316" alt="Time Bank conceptual service-interface designs." loading="lazy"><span class="view-label">View full figure</span></a><figcaption>Time Bank conceptual service-interface designs.</figcaption></figure><p><a href="https://www.figma.com/proto/N6ZdggiLSIBjGgBYwIRrvj/time-bank-2026?node-id=1-155&amp;p=f&amp;t=XBzxsXORalUHUZp1-1&amp;scaling=min-zoom&amp;content-scaling=fixed&amp;page-id=0%3A1" target="_blank" rel="noopener">View interactive prototype</a></p></details></article></div></section>
 
-      <section class="content-section" id="projects" aria-labelledby="projects-heading">
-        <h2 id="projects-heading">Projects</h2>
-        <div class="section-body">
-          <p class="placeholder">Research projects and related resources will be added here.</p>
-        </div>
-      </section>
-
-      <section class="content-section" id="cv" aria-labelledby="cv-heading">
-        <h2 id="cv-heading">CV</h2>
-        <div class="section-body">
-          <!-- When a real CV is ready, add the PDF and replace this paragraph with its link. -->
-          <p class="placeholder">A downloadable CV will be added here.</p>
-          <p>For CV enquiries, please <a href="mailto:kunjianluo@connect.hku.hk">contact me by email</a>.</p>
-        </div>
-      </section>
-
-      <section class="content-section" id="contact" aria-labelledby="contact-heading">
-        <h2 id="contact-heading">Contact</h2>
-        <div class="section-body">
-          <p>I welcome conversations about research and opportunities for academic collaboration.</p>
-          <dl class="contact-list">
-            <div>
-              <dt>Email</dt>
-              <dd><a href="mailto:kunjianluo@connect.hku.hk">kunjianluo@connect.hku.hk</a></dd>
-            </div>
-            <div>
-              <dt>GitHub</dt>
-              <dd><a href="https://github.com/kunjianluo">github.com/kunjianluo</a></dd>
-            </div>
-          </dl>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer page-width">
-      <p>&copy; Kunjian Luo</p>
-      <a href="#home">Back to top <span aria-hidden="true">↑</span></a>
-    </footer>
-  </body>
+    <section id="cv" aria-labelledby="contact-heading"><div class="section-heading"><h2 id="contact-heading">CV & contact</h2></div><div id="contact" class="contact-target"><h3>Contact</h3><a class="contact-email" href="mailto:kunjianluo@connect.hku.hk">kunjianluo@connect.hku.hk</a></div><div class="contact-links"><a href="assets/cv/Kunjian-Luo-CV.pdf" download>Curriculum Vitae <small>PDF</small></a><a href="https://github.com/kunjianluo">GitHub</a></div></section>
+    <footer><span>© 2026 Kunjian Luo. All rights reserved.</span></footer>
+  </main>
+</div>
+<dialog id="figure-dialog" aria-labelledby="figure-title"><div class="dialog-toolbar"><h2 id="figure-title">Research figure</h2><div><a id="original-link" href="assets/research/japan-hourly.png" target="_blank" rel="noopener">Open full resolution</a><button id="close-figure" type="button">Close</button></div></div><div class="dialog-image"><img id="expanded-figure" alt=""></div><p id="figure-caption"></p></dialog>
+</body>
 </html>
